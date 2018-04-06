@@ -1,0 +1,212 @@
+/* Useful Information
+
+font-family: 'Patua One', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Righteous', cursive;
+ */
+
+
+ul {
+   padding: 0;
+ }
+
+li {
+   list-style: none;
+ }
+
+a {
+   font-family: roboto;
+   font-size: 30px;
+ }
+
+
+
+ /*******************
+     Header styles / Nav Bar
+ **********************/
+.my-navbar {
+    height: 100px;
+}
+
+.my-logo {
+    width: 50%;
+}
+
+.toplogo { 
+    width: 35%;
+    margin-left: 50px;
+
+}
+
+@media (max-width: 700px) {
+   .toplogo {
+    width:1000px;
+    text-align: center;
+   }
+   .navbar-toggler {
+    text-align: right;
+   }
+}
+
+.my-navbar-menu {
+    width: 40%; 
+    margin-top: 40px;
+    margin-left: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.my-navbar-menu a {
+  margin: 5px;
+}
+
+.socialicons {
+   padding-left: 20px;
+}
+
+ /*******************
+        Desktop
+ **********************/
+
+
+.socialicons i{
+   color: #c68142;
+   width: 50px;
+   font-size: 30px;
+   margin: -10px;
+   margin-top: 15px;
+}
+
+.line {
+   width:1200px;
+   height:1px;
+   margin:0px auto;
+   padding:0px;
+   background-color:#c68142;
+   overflow:hidden;
+}
+
+
+.maintext {
+  color: #6e1911;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-size: 40px;
+  text-transform:uppercase
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button01 {
+   display: inline-block;
+}
+
+.button02 {
+ display: inline-block;
+}
+
+.button01 a {
+  border: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  background-color: none;
+  font-size: 15px;
+  color: #c68142;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin: auto;
+}
+
+
+.button02 a {
+  border: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  background-color: #c68142;
+  color: #c68142;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+/*  margin-top: 10px;*/
+ /* margin-left: 30px;*/
+}
+
+
+.button01 a:hover,
+.button01 a:focus,
+.button01 a:active {
+   opacity: 0.9;
+   color: grey;
+   text-decoration: none;
+ }
+
+.button02 a:hover,
+.button02 a:focus,
+.button02 a:active {
+   opacity: 0.9;
+   color: grey;
+   text-decoration: none;
+ }
+
+ 
+  
+
+ /*******************
+     Header styles
+ **********************/
+.pictext p {
+  color: blue;
+  position:absolute;
+}
+
+ /*******************
+        Desktop
+ **********************/
+
+
+
+/***********************
+      Hero section
+*************************/
+section {
+  height: auto;
+  background-color: #BBFFEE;
+  margin-top: 30px;
+}
+
+.mypic {
+  max-width: 800px;
+   float: left;
+   margin-right: 6px;
+}
+
+.sidepic-container {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.sidepic {
+  width: 190px;
+  height: 215px;
+  margin-top: 6px;
+}
+
+/****************
+     Section
+*****************/
+
+
+/*********************
+   Footer Section
+**********************/
