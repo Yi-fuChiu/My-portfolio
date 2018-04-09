@@ -16,9 +16,9 @@
         <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
         <link rel="stylesheet" href="/css/basicstyle.css">
         <link rel="stylesheet" href="/css/style.css">
-    
+
     </head>
-    
+
     <header>
       <div class="wrapper">
 
@@ -48,10 +48,10 @@
       <div class="collapse navbar-collapse my-navbar-menu" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto justify-content-center">
             <li class="nav-item active">
-               <a class="nav-link" href="#" style="color: #c68142">Home <span class="sr-only">(current)</span></a>
+               <a class="nav-link" href="#" style="color: #9f8b52">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="#" style="color: #c68142">Link</a>
+               <a class="nav-link" href="#" style="color: #9f8b52">Link</a>
             </li>
             <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #c68142">Portfolio</a>
@@ -77,19 +77,19 @@
 
     </nav>
   </div>
-     
+
     </header>
 
        <body>
         <div class="wrapper">
-              <div class="line"></div> 
+              <div class="line"></div>
 
              <div class="maintext">
                 <p>A Creative Web Developer & Different</p>
                 <p>Angel on Design<p>
              </div>
-             
-        <div button-container> 
+
+        <div button-container>
              <div class="button01">
                  <a href="">Find Out More</a>
              </div>
@@ -110,17 +110,17 @@
           <img class="mypic" src="./img/yifu.jpg">
           <p>Yi-fu Chiu</p>
       </div>
-       
+
        <div class="sidepic-container">
           <div><img class="sidepic" src="./img/coding.jpeg"></div>
-          <div><img class="sidepic" src="./img/camera.jpg"></div>  
+          <div><img class="sidepic" src="./img/camera.jpg"></div>
           <div><img class="sidepic" src="./img/design.jpg"></div>
           <div><img class="sidepic" src="./img/typing.jpg"></div>
        </div>
         </div>
     </section>
 
-    
+
 
 
     <div id = "svgcontainer" style="width: 500px;height: 500px;"></div>
