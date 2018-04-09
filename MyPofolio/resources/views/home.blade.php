@@ -33,16 +33,16 @@
          <div class="collapse navbar-collapse my-navbar-menu" id="navbarSupportedContent">
              <ul class="navbar-nav mr-auto justify-content-center">
                <li class="nav-item active">
-                  <a class="nav-link" href="#" style="color: #9f8b52">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#" style="color: #a67c00">Home <span class="sr-only">(current)</span></a>
                </li>
 
                <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: #9f8b52">About Me</a>
+                  <a class="nav-link" href="#" style="color: #a67c00">About Me</a>
                </li>
 
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="
-                     false" style="color: #c68142">Portfolio</a>
+                     false" style="color: #a67c00">Portfolio</a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>
@@ -52,11 +52,11 @@
                </li>
 
                <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: #9f8b52">Gallery</a>
+                  <a class="nav-link" href="#" style="color: #a67c00">Gallery</a>
                </li>
 
                <li class="nav-item">
-                <a class="nav-link disabled" href="#" style="color: #c68142">Contact</a>
+                <a class="nav-link disabled" href="#" style="color: #a67c00">Contact</a>
                </li>
 
               <div class="socialicons">

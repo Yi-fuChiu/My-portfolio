@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Patua+One|Paytone+One|Russo+One|Freckle Face|Limelight|Righteous" rel="stylesheet">
   <title>Text with Background</title>
   </head>
 
@@ -10,7 +11,7 @@
       body,h1{
         margin: 0;
         padding: 0;
-        font-family: arial;
+        font-family: 'Righteous', cursive;
       }
 
       .text-container h1{

@@ -55,7 +55,7 @@ a {
 .my-navbar-menu {
     width: 40%; 
     margin-top: 40px;
-    margin-left: 15px;
+    margin-left: 60px;
     padding: 10px;
     text-align: center;
 }
@@ -74,7 +74,7 @@ a {
 
 
 .socialicons i{
-   color: #c68142;
+   color: #a67c00;
    width: 50px;
    font-size: 30px;
    margin: -10px;
@@ -86,7 +86,7 @@ a {
    height:1px;
    margin:0px auto;
    padding:0px;
-   background-color:#c68142;
+   background-color: #a67c00;
    overflow:hidden;
 }
 
@@ -112,7 +112,7 @@ a {
   border-style: solid;
   background-color: none;
   font-size: 15px;
-  color: #c68142;
+  color: #a67c00;
   text-decoration: none;
   text-align: center;
   margin-top: 20px;
@@ -132,9 +132,9 @@ a {
 .button02 {
   border: 2px;
   border-radius: 20px;
-  border-style: solid #c68142;
-  background-color: #c68142;
-  color: #c68142;
+  border-style: solid #a67c00;
+  background-color: #a67c00;
+  color: #a67c00;
   text-decoration: none;
   color: white;
   padding: 10px;
@@ -234,7 +234,7 @@ section {
 .skillcolum {
   text-align: center;
   height: 200px;
-  border: solid #c68142;
+  border: solid #a67c00;
   border-radius: 20px;
   margin-top: 50px;
   width: auto;
@@ -246,3 +246,8 @@ section {
 /*********************
    Footer Section
 **********************/
+
+footer {
+  height: auto;
+  background-color: #a67c00;
+}
