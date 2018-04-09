@@ -1,5 +1,6 @@
 /* Useful Information
 
+font-family: 'Freckle Face', cursive;
 font-family: 'Patua One', cursive;
 font-family: 'Russo One', sans-serif;
 font-family: 'Berkshire Swash', cursive;
@@ -32,11 +33,11 @@ a {
 }
 
 .my-logo {
-    width: 50%;
+    width: 100%;
 }
 
 .toplogo { 
-    width: 35%;
+    width: 18%;
     margin-left: 50px;
 
 }
@@ -90,9 +91,11 @@ a {
 }
 
 
-.maintext {
+.text-container {
+  padding-top: 50px;
+  padding-bottom: : 50px;
   color: #6e1911;
-  font-family: 'Righteous', cursive;
+  font-family: 'Freckle Face', cursive;
   text-align: center;
   font-size: 40px;
   text-transform:uppercase
@@ -102,15 +105,8 @@ a {
   text-align: center;
 }
 
+
 .button01 {
-   display: inline-block;
-}
-
-.button02 {
- display: inline-block;
-}
-
-.button01 a {
   border: 2px;
   border-radius: 20px;
   border-style: solid;
@@ -127,11 +123,16 @@ a {
   margin: auto;
 }
 
+.or {
+  color: black;
+  font-family: 'Patua One', cursive;
+  font-size: 20px;
+}
 
-.button02 a {
+.button02 {
   border: 2px;
   border-radius: 20px;
-  border-style: solid;
+  border-style: solid #c68142;
   background-color: #c68142;
   color: #c68142;
   text-decoration: none;
@@ -165,9 +166,28 @@ a {
  /*******************
      Header styles
  **********************/
-.pictext p {
+.pictext {
   color: blue;
   position:absolute;
+
+}
+
+
+.pictext-title {
+  font-size: 60px;
+  padding-left: 430px;
+  color: black;
+  padding-top: 115px;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.pictext-dis {
+  font-size: 20px;
+  padding-left: 430px;
+  color: black;
+  padding-top: 80px;
+  font-family: 'Paytone One', sans-serif;
+  text-align: center;
 }
 
  /*******************
@@ -179,8 +199,8 @@ a {
 /***********************
       Hero section
 *************************/
-section {
-  height: auto;
+.hero {
+  height: 500;
   background-color: #BBFFEE;
   margin-top: 30px;
 }
@@ -206,6 +226,22 @@ section {
      Section
 *****************/
 
+section {
+  height: auto;
+  width: 100%;
+}
+
+.skillcolum {
+  text-align: center;
+  height: 200px;
+  border: solid #c68142;
+  border-radius: 20px;
+  margin-top: 50px;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow:3px 3px 30px gray;padding:0px;
+}
 
 /*********************
    Footer Section
