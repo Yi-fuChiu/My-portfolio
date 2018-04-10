@@ -15,12 +15,12 @@
       }
 
       .text-container h1{
-        font-size: 300px;
+        font-size: 250px;
         color: rgba(225,225,225,.1);
         background-image: url(/img/yifu.jpg);
         background-repeat: repeat-x;
         -webkit-background-clip:text;
-        animation: animate 80s linear infinite;
+        animation: animate 50s linear infinite;
       }
 
       @keyframes animate {
