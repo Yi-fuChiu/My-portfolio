@@ -64,21 +64,20 @@ a {
   margin: 5px;
 }
 
-.socialicons {
-   padding-left: 20px;
-}
 
  /*******************
         Desktop
  **********************/
 
 
-.socialicons i{
+.socialicons {
    color: #a67c00;
    width: 50px;
    font-size: 30px;
    margin: -10px;
    margin-top: 15px;
+   padding-left: 20px;
+   float: left;
 }
 
 .line {

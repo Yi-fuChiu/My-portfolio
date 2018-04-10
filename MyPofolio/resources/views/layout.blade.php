@@ -59,12 +59,25 @@
                 <a class="nav-link disabled" href="#" style="color: #a67c00">Contact</a>
                </li>
 
-              <div class="socialicons">
-               <i class="fa fa-linkedin-square"></i>
-               <i class="fa fa-facebook-square"></i>
-               <i class="fa fa-instagram"></i>
-               <i class="fa fa-twitter-square"></i>
-             </div>
+
+              
+               <div class="socialicons">
+                <i class="fab fa-linkedin"></i>
+               </div>
+ 
+               <div class="socialicons">
+                 <i class="fab fa-facebook-square"></i>
+               </div>
+                
+               <div class="socialicons">
+                 <i class="fab fa-instagram"></i>
+               </div>
+
+               <div class="socialicons">
+                 <i class="fab fa-twitter-square"></i>
+               </div>
+                        
+          
            </ul>
            </div>
 

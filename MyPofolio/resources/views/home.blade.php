@@ -112,17 +112,17 @@
       <h1>My skills</h1>
 
       <div class="skillicon">
-        <i class="fa fa-html5"></i>
+        <i class="fab fa-html5"></i>
         <p>html 5</p>
       </div>
 
       <div class="skillicon">
-        <i class="fa fa-code"></i>
+        <i class="fas fa-code"></i>
         <p>code</p>
       </div>
 
       <div class="skillicon">
-        <i class="fa fa-css3"></i>
+        <i class="fab fa-css3-alt"></i>
         <p>CSS 3</p>
       </div>
 
@@ -130,6 +130,13 @@
          <i class="fab fa-sass"></i>
         <p>Sass</p>
       </div>
+
+       <div class="skillicon">
+         <i class="fab fa-wordpress"></i>
+         <p>Wordpress</p>
+      </div>
+
+
 
       </div>
       
@@ -143,4 +150,4 @@
 
 
 
-  
+ <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script> 
