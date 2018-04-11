@@ -4,7 +4,7 @@
 
         <div class="wrapper">
 
-              <div class="line"></div>
+
 
           <div class="text-container">
                <p>A Creative Web Developer & Different</p>

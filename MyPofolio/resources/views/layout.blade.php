@@ -33,11 +33,11 @@
          <div class="collapse navbar-collapse my-navbar-menu" id="navbarSupportedContent">
              <ul class="navbar-nav mr-auto justify-content-center">
                <li class="nav-item active">
-                  <a class="nav-link" href="#" style="color: #a67c00">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="/home" style="color: #a67c00">Home <span class="sr-only">(current)</span></a>
                </li>
 
                <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: #a67c00">About Me</a>
+                  <a class="nav-link" href="/about" style="color: #a67c00">About Me</a>
                </li>
 
                <li class="nav-item dropdown">
@@ -52,11 +52,11 @@
                </li>
 
                <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: #a67c00">Gallery</a>
+                  <a class="nav-link" href="/gallery" style="color: #a67c00">Gallery</a>
                </li>
 
                <li class="nav-item">
-                <a class="nav-link disabled" href="#" style="color: #a67c00">Contact</a>
+                <a class="nav-link disabled" href="/contact" style="color: #a67c00">Contact</a>
                </li>
 
 
@@ -76,13 +76,17 @@
                <div class="socialicons">
                  <i class="fab fa-twitter-square"></i>
                </div>
+
+
                         
           
            </ul>
+
            </div>
 
           </nav>
          </div>
+         <div class="line"></div>
       </header>
 
   
