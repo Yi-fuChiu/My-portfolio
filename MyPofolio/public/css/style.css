@@ -199,8 +199,8 @@ a {
       Hero section
 *************************/
 .hero {
-  height: 500;
-  background-color: #BBFFEE;
+  height: auto;
+ /* background-color: #BBFFEE;*/
   margin-top: 30px;
 }
 
@@ -230,7 +230,7 @@ section {
   width: 100%;
 }
 
-.skillcolum {
+.skillcolumn {
   text-align: center;
   height: auto;
   border: solid #a67c00;
@@ -247,6 +247,10 @@ section {
   font-size: 40px;
   padding:20px;
   color: #a67c00;
+}
+
+.skillicon p {
+  font-size: 20px;
 }
 /*********************
    Footer Section

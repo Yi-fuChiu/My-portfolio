@@ -41,7 +41,7 @@
                </li>
 
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="
+                  <a class="nav-link dropdown-toggle" href="/portfolio" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="
                      false" style="color: #a67c00">Portfolio</a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
@@ -105,7 +105,7 @@
             <hr class="clearfix w-100 d-md-none">
 
             <!--Second column-->
-            <div class="col-md-2 mx-auto">
+         <!--    <div class="col-md-2 mx-auto">
                 <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -120,14 +120,14 @@
                     <li>
                         <a href="#!">Link 4</a>
                     </li>
-                </ul>
-            </div>
+                </ul> -->
+          <!--   </div> -->
             <!--/.Second column-->
-
-            <hr class="clearfix w-100 d-md-none">
+<!-- 
+            <hr class="clearfix w-100 d-md-none"> -->
 
             <!--Third column-->
-            <div class="col-md-2 mx-auto">
+       <!--      <div class="col-md-2 mx-auto">
                 <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -143,13 +143,13 @@
                         <a href="#!">Link 4</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
             <!--/.Third column-->
 
-            <hr class="clearfix w-100 d-md-none">
+          <!--   <hr class="clearfix w-100 d-md-none"> -->
 
             <!--Fourth column-->
-            <div class="col-md-2 mx-auto">
+  <!--           <div class="col-md-2 mx-auto">
                 <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -165,13 +165,13 @@
                         <a href="#!">Link 4</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
             <!--/.Fourth column-->
-        </div>
-    </div>
+    <!--     </div>
+    </div> -->
     <!--/.Footer Links-->
 
-    <hr>
+<!--     <hr> -->
 
 
     <!--Social buttons-->
@@ -179,27 +179,27 @@
         <ul class="list-unstyled list-inline">
             <li class="list-inline-item">
                 <a class="btn-floating btn-sm btn-fb mx-1">
-                    <i class="fa fa-facebook"> </i>
+                    <i class="fab fa-facebook"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a class="btn-floating btn-sm btn-tw mx-1">
-                    <i class="fa fa-twitter"> </i>
+                    <i class="fab fa-twitter"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a class="btn-floating btn-sm btn-gplus mx-1">
-                    <i class="fa fa-google-plus"> </i>
+                    <i class="fab fa-google-plus"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a class="btn-floating btn-sm btn-li mx-1">
-                    <i class="fa fa-linkedin"> </i>
+                    <i class="fab fa-linkedin"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a class="btn-floating btn-sm btn-dribbble mx-1">
-                    <i class="fa fa-dribbble"> </i>
+                    <i class="fab fa-dribbble"> </i>
                 </a>
             </li>
         </ul>

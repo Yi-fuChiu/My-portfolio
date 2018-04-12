@@ -108,7 +108,7 @@
 
 <section>
   <div class="wrapper">
-    <div class="skillcolum">
+    <div class="skillcolumn">
       <h1>My skills</h1>
 
       <div class="skillicon">
@@ -135,6 +135,53 @@
          <i class="fab fa-wordpress"></i>
          <p>Wordpress</p>
       </div>
+
+      <div class="skillicon">
+         <i class="fab fa-js-square"></i>
+         <p>JavaScript</p>
+      </div>
+
+     <div class="skillicon">
+         <i class="fab fa-php"></i>
+         <p>PHP</p>
+      </div>
+
+      <div class="skillicon">
+         <i class="fas fa-camera-retro"></i>
+         <p>Photography</p>
+      </div>
+      
+     <div class="skillicon"> 
+         <i class="fas fa-paint-brush"></i>   
+         <p>PhotoShop</p>
+      </div>
+
+      <div class="skillicon">
+         <i class="fas fa-pencil-alt"></i>
+         <p>Illustrator</p>
+      </div>
+
+       <div class="skillicon">
+         <i class="fas fa-edit"></i>
+         <p>CorelDRAW</p>
+      </div>
+
+        <div class="skillicon">
+         <i class="fab fa-github-square"></i>
+         <p>Github</p>
+      </div>
+    
+        <div class="skillicon">
+         <i class="fas fa-columns"></i>
+         <p>MySQL</p>
+      </div>
+
+         <div class="skillicon">
+         <i class="fas fa-map-marker-alt"></i>
+         <p>API</p>
+      </div>
+    
+      
 
 
 
