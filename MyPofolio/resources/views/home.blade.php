@@ -11,7 +11,7 @@
                <p>Angel on Design<p>
                <a href="#" class="button button01">Find Out More</a> 
                <span class="or">or</span>
-               <a href="#" class="button button02">View Portfolio</a> 
+               <a href="/portafolio" class="button button02">View Portafolio</a> 
           </div>
       
 

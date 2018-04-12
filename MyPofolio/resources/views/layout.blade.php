@@ -42,7 +42,7 @@
 
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="/portfolio" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="
-                     false" style="color: #a67c00">Portfolio</a>
+                     false" style="color: #a67c00">Poratfolio</a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>

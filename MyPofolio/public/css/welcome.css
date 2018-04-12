@@ -1,0 +1,39 @@
+body {
+	 background-color: #cccccc;
+	background-image: url("../img/bluecode.png");
+}
+
+
+
+.button {
+  border: 2px;
+  border-radius: 20px;
+  border-style: solid #a67c00;
+  background-color: #a67c00;
+  color: #a67c00;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+/*  margin-top: 10px;*/
+ /* margin-left: 30px;*/
+}
+
+.button a:hover,
+.button a:focus,
+.button a:active {
+   opacity: 0.9;
+   color: grey;
+   text-decoration: none;
+ }
+
+
+.button a:hover,
+.button a:focus,
+.button a:active {
+   opacity: 0.9;
+   color: grey;
+   text-decoration: none;
+ }
+	border-radius: 
+}

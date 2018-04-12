@@ -2,7 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Patua+One|Paytone+One|Russo+One|Freckle Face|Limelight|Righteous" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/welcome.css">
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Carter+One|Gugi" rel="stylesheet">
   <title>Text with Background</title>
   </head>
 
@@ -11,13 +12,13 @@
       body,h1{
         margin: 0;
         padding: 0;
-        font-family: 'Righteous', cursive;
+        font-family: 'Gugi', cursive;
       }
 
       .text-container h1{
         font-size: 250px;
         color: rgba(225,225,225,.1);
-        background-image: url(/img/yifu.jpg);
+        background-image: url(/img/colorfulcode.jpg);
         background-repeat: repeat-x;
         -webkit-background-clip:text;
         animation: animate 50s linear infinite;
@@ -43,7 +44,7 @@
 <body>
   <div class="text-container">
     <h1>Yi-fu Chiu</h1>
-     <a href="/home" class="button button01">Click it to my place</a> 
+     <a href="/home" class="button">Click it to my place</a> 
   </div>
 
 
