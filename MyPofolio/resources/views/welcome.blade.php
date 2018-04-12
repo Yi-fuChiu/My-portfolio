@@ -18,7 +18,7 @@
       .text-container h1{
         font-size: 200px;
         color: rgba(225,225,225,.1);
-        background-image: url(/img/colorfulcode.jpg);
+        background-image: url(/img/goldcode.jpg);
         background-repeat: repeat-x;
         -webkit-background-clip:text;
         animation: animate 50s linear infinite;
