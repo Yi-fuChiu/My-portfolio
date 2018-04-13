@@ -189,10 +189,6 @@ a {
   text-align: center;
 }
 
- /*******************
-        Desktop
- **********************/
-
 
 
 /***********************
@@ -200,7 +196,6 @@ a {
 *************************/
 .hero {
   height: auto;
- /* background-color: #BBFFEE;*/
   margin-top: 30px;
 }
 

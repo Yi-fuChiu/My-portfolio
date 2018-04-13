@@ -1,3 +1,7 @@
+@extends('layout')
+
+@section('content')
+
 <html>
 <head>
 <title> Contact Form </title>	

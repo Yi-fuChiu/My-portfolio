@@ -83,9 +83,6 @@
 
 
 
-
-
-
          <img class="mypic" src="./img/yifu.jpg">
          <div Class="pictext">  
           <div class="pictext-title">
