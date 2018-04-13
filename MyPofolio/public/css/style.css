@@ -200,23 +200,37 @@ a {
 }
 
 .mypic {
-  max-width: 800px;
+   width: 816px;
    float: left;
    margin-right: 6px;
    text-align: center;
 }
 
-.sidepic-container {
- display: grid;
- grid-template-columns: 1fr 1fr;
+.sidepic {
+  width: 200px;
+  height: 215px;
+  margin: 3px;
+}
+
+@media (max-width: 700px) {
+.hero {
+  height: auto;
+  margin-top: 30px;
+}
+
+.mypic {
+   width: 550px;
+   float: left;
+   margin-right: 6px;
+   text-align: center;
 }
 
 .sidepic {
-  width: 190px;
-  height: 215px;
-  margin-top: 6px;
+  width: 251px;
+  height: 251px;
+  margin: 3px;
 }
-
+}
 
 /*.mypic {
   text-align: center;
@@ -249,6 +263,12 @@ section {
   margin-left: 10px;
   margin-right: 10px;
   box-shadow:3px 3px 30px gray;padding:0px;
+}
+
+.skillcolumn h1 {
+  color: #a67c00;
+  padding-top: 30px; 
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .skillicon {

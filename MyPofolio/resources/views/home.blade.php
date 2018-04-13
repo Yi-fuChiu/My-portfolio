@@ -19,8 +19,6 @@
        <div class="wrapper">
 
 
-
-
 <style type="text/css">
      #canvas {
        position: absolute;
@@ -80,25 +78,12 @@
 </body>
 
 
+<div class="row">
+  <div class="col-sm-8"><img class="mypic" src="./img/yifu-1.jpg"></div>
+  <div class="col-sm-2"><img class="sidepic" src="./img/coding.jpeg"><img class="sidepic" src="./img/camera.jpg"></div>
+  <div class="col-sm-2"><img class="sidepic" src="./img/design.jpg"><img class="sidepic" src="./img/typing.jpg"></div>
+</div>
 
-
-
-         <img class="mypic" src="./img/yifu.jpg">
-         <div Class="pictext">  
-          <div class="pictext-title">
-             <p>Yi-fu Chiu</p>
-          </div>
-          <div class="pictext-dis">
-             <p>I creat custom designs for websites,<br> interfaces and webapps based <br> on your requirement.</p>
-          </div>
-      </div>
-
-       <div class="sidepic-container">
-          <div><img class="sidepic" src="./img/coding.jpeg"></div>
-          <div><img class="sidepic" src="./img/camera.jpg"></div>
-          <div><img class="sidepic" src="./img/design.jpg"></div>
-          <div><img class="sidepic" src="./img/typing.jpg"></div>
-       </div>
         </div>
     </div>
 
