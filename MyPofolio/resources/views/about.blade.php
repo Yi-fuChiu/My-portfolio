@@ -20,7 +20,7 @@
       <img class="meimg" src='./img/aboutme.jpg' alt="Yi-fu Chiu"/>
       </div>
       <div class="col-9">
-        <p class="exp">My name is Yi-fu Chiu (Chris), I have done several front and back end projects while pursuing a certificat in web development at SAIT. Currently I am a junior Front-End Developer and Designer. Practical experience in ecommerce and product branding as well as digital and social media marketing. </p>
+        <p class="exp">My name is Yi-fu Chiu (Chris), I have done several front and back end projects while pursuing a certificat in web development at SAIT, and I enjoy both working with a team and coding individually. Currently I am a junior Front-End Developer and Designer. Practical experience in ecommerce and product branding as well as digital and social media marketing. </p>
       
       </div>
   

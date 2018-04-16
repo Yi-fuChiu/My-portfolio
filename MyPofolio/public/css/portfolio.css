@@ -21,7 +21,8 @@ h1 {
 	margin: auto;
 }
 
-.portfolio h1{
+.portfolio h1 {
+	padding-top: 50px;
 	text-align: center;
 	font-size: 38px;
 	margin: 15px 0px 40px;
