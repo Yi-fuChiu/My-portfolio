@@ -97,7 +97,7 @@
 				      <section class="portfolio-item">
 						<img src="img/javascript.jpg" alt="" class="portfolio-img">
 						<section class="portfolio-text">
-							<a href="#"><h2>Calculator</h2></a>
+							<a href="/calculator"><h2>Calculator</h2></a>
 							<p>Functional calculator by using computer logic</p>
 						</section>
 				    </div>
@@ -106,7 +106,7 @@
 				      <section class="portfolio-item">
 						<img src="img/javascript.jpg" alt="" class="portfolio-img">
 						<section class="portfolio-text">
-							<a href="#"><h2>Microwave</h2></a>
+							<a href="/microwave"><h2>Microwave</h2></a>
 							<p>Functional microwave by using computer logic</p>
 						</section>
 				    </div>

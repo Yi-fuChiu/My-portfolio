@@ -44,3 +44,12 @@ Route::get('/game', function () {
 Route::get('/informationform', function () {
     return view('informationform');
 });
+
+Route::get('/microwave', function () {
+    return view('microwave');
+});
+
+Route::get('/calculator', function () {
+    return view('calculator');
+});
+
