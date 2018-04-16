@@ -12,7 +12,7 @@
 <div class="wrapper">
 
   <!--About Panel-->
-  <div class="main container-fluid">
+  <div class="main container-fluid" >
 
       <h1 class="nametitle">Yi-fu Chiu</h1>
       <div class="row vertical-center">
