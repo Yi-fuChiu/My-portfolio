@@ -24,12 +24,12 @@ a {
  }
 
 
-
  /*******************
      Header styles / Nav Bar
  **********************/
 .my-navbar {
-    height: 100px;
+    height: 105px;
+    background-color: white;
 }
 
 .my-logo {
@@ -70,15 +70,16 @@ a {
  **********************/
 
 
-.socialicons {
+.socialicons a {
    color: #a67c00;
    width: 50px;
    font-size: 30px;
-   margin: -10px;
+   margin: -5px;
    margin-top: 15px;
    padding-left: 20px;
    float: left;
 }
+
 
 .line {
    width:1200px;
@@ -89,7 +90,6 @@ a {
    overflow:hidden;
 }
 
-
 .text-container {
   padding-top: 50px;
   padding-bottom: : 50px;
@@ -98,6 +98,7 @@ a {
   text-align: center;
   font-size: 40px;
   text-transform:uppercase
+  text-shadow: 1px 1px 5px #888888;
 }
 
 .button-container {
@@ -110,7 +111,7 @@ a {
   border-radius: 20px;
   border-style: solid;
   background-color: none;
-  font-size: 15px;
+  font-size: 25px;
   color: #a67c00;
   text-decoration: none;
   text-align: center;
@@ -165,7 +166,7 @@ a {
  /*******************
      Header styles
  **********************/
-.pictext {
+/*.pictext {
   color: blue;
   position:absolute;
 
@@ -187,7 +188,7 @@ a {
   padding-top: 80px;
   font-family: 'Paytone One', sans-serif;
   text-align: center;
-}
+}*/
 
 
 
@@ -197,22 +198,31 @@ a {
 .hero {
   height: auto;
   margin-top: 30px;
+  width: 100%
+}
+
+.row {
+     position:relative;
+bottom:0px;
+right:0px;
+z-index: 1;
 }
 
 .mypic {
-   width: 816px;
-   float: left;
-   margin-right: 6px;
-   text-align: center;
+   max-width: 100%;
+
 }
 
 .sidepic {
-  width: 200px;
-  height: 215px;
-  margin: 3px;
+  max-width: 100%;
 }
 
-@media (max-width: 700px) {
+.padding-0{
+    padding-right:2;
+    padding-left:2;
+}
+
+/*@media (max-width: 700px) {
 .hero {
   height: auto;
   margin-top: 30px;
@@ -229,8 +239,8 @@ a {
   width: 251px;
   height: 251px;
   margin: 3px;
-}
-}
+}*/
+
 
 /*.mypic {
   text-align: center;
@@ -258,10 +268,10 @@ section {
   height: auto;
   border: solid #a67c00;
   border-radius: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
   width: auto;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   box-shadow:3px 3px 30px gray;padding:0px;
 }
 
@@ -281,16 +291,23 @@ section {
 .skillicon p {
   font-size: 20px;
 }
+
 /*********************
    Footer Section
 **********************/
 
 footer {
-  height: auto;
+  height: 130px;
   background-color: #a67c00;
 }
 
-.text-center a {
-  font-size: 30px;
+.contecticons h3 {
+  font-family:'Roboto', sans-serif;
   color: white;
+}
+
+.list-inline a {
+   color: white;
+   width: 50px;
+   font-size: 30px;
 }

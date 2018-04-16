@@ -23,14 +23,18 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/portafolio', function () {
-    return view('portafolio');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/portfolio', function () {
+    return view('portfolio');
 });
 
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/contact', 'ContactFormContrroller@create');
+Route::post('/contact', 'ContactFormContrroller@store');
+
+

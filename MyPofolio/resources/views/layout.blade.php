@@ -20,7 +20,7 @@
     <body>
        <header>
          <div class="wrapper">
-           <nav class="navbar navbar-expand-lg navbar-light bg-light my-navbar">
+           <nav class="navbar navbar-expand-lg navbar-light my-navbar">
              <a class="navbar-brand toplogo" href="#">
                <img class="my-logo" src="./img/yifulogo.gif">
              </a>
@@ -31,7 +31,7 @@
             </button>
 
          <div class="collapse navbar-collapse my-navbar-menu" id="navbarSupportedContent">
-             <ul class="navbar-nav mr-auto justify-content-center">
+             <ul class="navbar-nav mr-auto justify-content-center" style="background-color: white">
                <li class="nav-item active">
                   <a class="nav-link" href="/home" style="color: #a67c00">Home <span class="sr-only">(current)</span></a>
                </li>
@@ -41,13 +41,14 @@
                </li>
 
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="/portafolio" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="
-                     false" style="color: #a67c00">Portafolio</a>
+                  <a class="nav-link dropdown-toggle" href="/portfolio" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="
+                     false" style="color: #a67c00">Portfolio</a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#" style="color: #a67c00">HTML/CSS</a>
+                  <a class="dropdown-item" href="#" style="color: #a67c00">JavaScript</a>
+                  <a class="dropdown-item" href="#" style="color: #a67c00">Wordpress</a>
                <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/portafolio">Overview</a>
+                  <a class="dropdown-item" href="/portfolio" style="color: #a67c00">Overview</a>
                </div>
                </li>
 
@@ -62,23 +63,20 @@
 
               
                <div class="socialicons">
-                <i class="fab fa-linkedin"></i>
+                 <a href="https://www.linkedin.com/in/yifuchiu/"><i class="fab fa-linkedin"></i></a>
                </div>
  
                <div class="socialicons">
-                 <i class="fab fa-facebook-square"></i>
+                 <a href="https://www.facebook.com/chris.chiu.581"><i class="fab fa-facebook-square"></i></a>
                </div>
                 
                <div class="socialicons">
-                 <i class="fab fa-instagram"></i>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                </div>
 
                <div class="socialicons">
-                 <i class="fab fa-twitter-square"></i>
-               </div>
-
-
-                        
+                 <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+               </div>         
           
            </ul>
 
@@ -89,132 +87,53 @@
          <div class="line"></div>
       </header>
 
-  
-     @yield('content')
 
+     @yield('content')
 
         <!--Footer-->
 <footer class="wrapper">
-<footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+<div class="page-footer font-small stylish-color-dark pt-4 mt-4">
 
-    <!--Footer Links-->
-    <div class="container text-center text-md-left">
-        <div class="row">
-
-
-            <hr class="clearfix w-100 d-md-none">
-
-            <!--Second column-->
-         <!--    <div class="col-md-2 mx-auto">
-                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
-                    </li>
-                </ul> -->
-          <!--   </div> -->
-            <!--/.Second column-->
-<!-- 
-            <hr class="clearfix w-100 d-md-none"> -->
-
-            <!--Third column-->
-       <!--      <div class="col-md-2 mx-auto">
-                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
-                    </li>
-                </ul>
-            </div> -->
-            <!--/.Third column-->
-
-          <!--   <hr class="clearfix w-100 d-md-none"> -->
-
-            <!--Fourth column-->
-  <!--           <div class="col-md-2 mx-auto">
-                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
-                    </li>
-                </ul>
-            </div> -->
-            <!--/.Fourth column-->
-    <!--     </div>
-    </div> -->
-    <!--/.Footer Links-->
-
-<!--     <hr> -->
-
-
-    <!--Social buttons-->
-    <div class="text-center">
+    <div class="text-center contecticons" >
+        <h3> Connect with me <h3>
         <ul class="list-unstyled list-inline">
             <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-fb mx-1">
+                <a class="btn-floating btn-sm btn-fb mx-1" href="https://www.linkedin.com/in/yifuchiu/">
                     <i class="fab fa-facebook"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-tw mx-1">
+                <a class="btn-floating btn-sm btn-tw mx-1" href="https://twitter.com/">
                     <i class="fab fa-twitter"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-gplus mx-1">
+                <a class="btn-floating btn-sm btn-gplus mx-1" href="https://plus.google.com/discover">
                     <i class="fab fa-google-plus"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-li mx-1">
+                <a class="btn-floating btn-sm btn-li mx-1" href="https://www.linkedin.com/in/yifuchiu/">
                     <i class="fab fa-linkedin"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-dribbble mx-1">
+                <a class="btn-floating btn-sm btn-dribbble mx-1" href="https://dribbble.com/">
                     <i class="fab fa-dribbble"> </i>
                 </a>
             </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-sm btn-dribbble mx-1" href="https://github.com/Yi-fuChiu">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+
         </ul>
     </div>
-    <!--/.Social buttons-->
 
-    <!--Copyright-->
-    <div class="footer-copyright py-3 text-center">
-        © 2018 Copyright:
-        <a href="https://mdbootstrap.com/material-design-for-bootstrap/"> MDBootstrap.com </a>
     </div>
-    <!--/.Copyright-->
 
 </footer>
-<!--/.Footer-->
 
 </body>
 </html>

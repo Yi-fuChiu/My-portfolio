@@ -2,60 +2,45 @@
 
 @section('content')
 
-<html>
-<head>
-<title> Contact Form </title>	
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
-      <link rel="stylesheet" type="text/css" href="css/basicstyle.css">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
-</head>
+ <?php if($message = session('message')): ?>
+        <div class="alert alert-success">
+            <?php echo $message ?>
+        </div>
+    <?php endif; ?>
 
+    <?php if($errors->any()): ?>
+        <div class="alert alert-danger">
+            <ul>
+                <?php foreach ($errors->all() as $error): ?>
+                    <li><?php echo $error ?></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    <?php endif; ?>
 
-<div class="wrapper">
+    <div class="wrapper">
+    <h1>Contact me</h1>
 
+    <form method="post">
 
-<h1>Contact Me</h1>
-<head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"></head>
-<br />
-<div class="inner contact">
-                <!-- Form Area -->
-                <div class="contact-form">
-                    <!-- Form -->
-                    <form id="contact-us" method="post" action="#">
-                        <!-- Left Inputs -->
-                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
-                            <!-- Name -->
-                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
-                            <!-- Email -->
-                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
-                            <!-- Subject -->
-                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-                        </div><!-- End Left Inputs -->
-                        <!-- Right Inputs -->
-                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
-                            <!-- Message -->
-                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
-                        </div><!-- End Right Inputs -->
-                        <!-- Bottom Submit -->
-                        <div class="relative fullwidth col-xs-12">
-                            <!-- Send Button -->
-                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
-                        </div><!-- End Bottom Submit -->
-                        <!-- Clear -->
-                        <div class="clear"></div>
-                    </form>
+      <?php echo csrf_field() ?>
 
-                    <!-- Your Mail Message -->
-                    <div class="mail-message-area">
-                        <!-- Message -->
-                        <div class="alert gray-bg mail-message not-visible-message">
-                            <strong>Thank You !</strong> Your email has been delivered.
-                        </div>
-                    </div>
+        @include('forms.text', [
+            'label' => 'Name',
+            'name' => 'name'
+        ])
 
-                </div><!-- End Contact Form Area -->
-            </div><!-- End Inner -->
+        @include('forms.text', [
+            'label' => 'Email',
+            'name' => 'email'
+        ])
+        <br/>
+        <textarea name="message" rows="8" cols="80" placeholder="message"><?php echo old('message') ?></textarea>
+        <br/>
+        <input type="submit" name="" value="Submit">
+        <br/>
+        <br/>
+    </form>
+    </div>
 
-
-</div>
-
+@endsection
