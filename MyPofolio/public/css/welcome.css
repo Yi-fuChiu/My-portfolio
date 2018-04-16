@@ -1,6 +1,6 @@
 body {
 	 background-color: #cccccc;
-	background-image: url("../img/bluecode.png");
+	 background-image: url("../img/bluecode.png");
 }
 
 
@@ -19,21 +19,12 @@ body {
  /* margin-left: 30px;*/
 }
 
-.button a:hover,
-.button a:focus,
-.button a:active {
+.text-container a:hover,
+.text-container a:focus,
+.text-container a:active {
    opacity: 0.9;
-   color: grey;
+   color: blue;
    text-decoration: none;
  }
 
 
-.button a:hover,
-.button a:focus,
-.button a:active {
-   opacity: 0.9;
-   color: grey;
-   text-decoration: none;
- }
-	border-radius: 
-}

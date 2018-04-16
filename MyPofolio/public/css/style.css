@@ -144,21 +144,15 @@ a {
 }
 
 
-.button01 a:hover,
-.button01 a:focus,
-.button01 a:active {
+.text-container a:hover,
+.text-container a:focus,
+.text-container a:active {
    opacity: 0.9;
-   color: grey;
+   color: blue;
    text-decoration: none;
  }
 
-.button02 a:hover,
-.button02 a:focus,
-.button02 a:active {
-   opacity: 0.9;
-   color: grey;
-   text-decoration: none;
- }
+
 
  
   
@@ -304,6 +298,12 @@ footer {
 .contecticons h3 {
   font-family:'Roboto', sans-serif;
   color: white;
+}
+
+.contecticons a:hover{
+ opacity: 0.9;
+   color: lightblue;
+   text-decoration: none;
 }
 
 .list-inline a {

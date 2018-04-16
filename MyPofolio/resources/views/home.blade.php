@@ -11,7 +11,7 @@
         <div>
            <a href="/about" class="button button01">Find Out More</a> 
            <span class="or">or</span>
-           <a href="/portfolio" class="button button02">View Portfolio</a> 
+           <a href="/portfolio" class="button button02">View My Portfolio</a> 
         </div>
       </div>
       
