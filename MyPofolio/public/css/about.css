@@ -12,12 +12,8 @@ body{
   max-width: 100%;
   padding: 0px;
   box-shadow: 0px 0px 10px #555555;
-<<<<<<< HEAD
   background-image: url(/img/bg.jpg);
-=======
   background:url(/img/bg.jpg); 
-
->>>>>>> 00f29d3bcc504022e0c6e1cfcabb35b878724378
 }
 
 .nametitle{
