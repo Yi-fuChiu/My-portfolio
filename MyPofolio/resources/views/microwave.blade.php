@@ -5,9 +5,10 @@
     <!-- JQuery Libraries / Script Links -->
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script type="text/javascript"  src="./js/externalmicrowave.js"></script>
+   
     <!-- Fonts and User Styles -->
     <link rel="stylesheet" href="./css/microwave.css">
+     <script type="text/javascript"  src="./js/externalmicrowave.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Orbitron|Open+Sans+Condensed:300,700" rel="stylesheet">
   </head>
   <body>
@@ -90,7 +91,7 @@
 
     <!-- JavaScript Tag (At bottom of body to ensure all above HTML has been loaded first) -->
 
-    <script src="microwave.js"></script>
+    <script src="./js/externalmicrowave.js"></script>
 
 
   </body>

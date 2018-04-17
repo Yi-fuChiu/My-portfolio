@@ -99,7 +99,7 @@
         <h3> Connect with me <h3>
         <ul class="list-unstyled list-inline">
             <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-fb mx-1" href="https://www.linkedin.com/in/yifuchiu/">
+                <a class="btn-floating btn-sm btn-fb mx-1" href="https://www.facebook.com/chris.chiu.581">
                     <i class="fab fa-facebook"> </i>
                 </a>
             </li>
