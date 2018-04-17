@@ -31,7 +31,7 @@
             </button>
 
          <div class="collapse navbar-collapse my-navbar-menu" id="navbarSupportedContent">
-             <ul class="navbar-nav mr-auto justify-content-center" style="background-color: white">
+             <ul class="navbar-nav mr-auto justify-content-center" style="background-color: white; z-index: 9999;">
                <li class="nav-item active">
                   <a class="nav-link" href="/home" style="color: #a67c00">Home <span class="sr-only">(current)</span></a>
                </li>
