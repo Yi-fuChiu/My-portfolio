@@ -44,10 +44,10 @@
                   <a class="nav-link dropdown-toggle" href="/portfolio" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="
                      false" style="color: #a67c00">Portfolio</a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#" style="color: #a67c00">HTML/CSS</a>
-                  <a class="dropdown-item" href="#" style="color: #a67c00">JavaScript</a>
-                  <a class="dropdown-item" href="#" style="color: #a67c00">PHP</a>
-                  <a class="dropdown-item" href="#" style="color: #a67c00">Wordpress</a>
+                  <a class="dropdown-item" href="/portfolio" style="color: #a67c00">HTML/CSS</a>
+                  <a class="dropdown-item" href="/portfolio" style="color: #a67c00">JavaScript</a>
+                  <a class="dropdown-item" href="/portfolio" style="color: #a67c00">PHP</a>
+                  <a class="dropdown-item" href="/portfolio" style="color: #a67c00">Wordpress</a>
                <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="/portfolio" style="color: #a67c00">Overview</a>
                </div>
