@@ -12,7 +12,13 @@
 <body class="wrapper">
     <h1> Image Gallery Design </h1>
     <div class="gallery">
-    	<a href="img/stampede-1.jpg" data-lightbox="mygallery" data-title="Stampede Fireworks <br>F-stop: f/8 <br> Exposure time: 7sec <br>ISO speed: ISO-100 <br> Canon EOS 50 Mark II"><img src="img/stampede-1.jpg"></a>
+        <a href="img/wireframe.jpg" data-lightbox="mygallery" data-title="This is dog"><img src="img/wireframe.jpg"></a>
+        <a href="img/mockup.jpg" data-lightbox="mygallery" data-title="This is fish"><img src="img/mockup.jpg"></a>
+        <a href="img/logodesign.jpg" data-lightbox="mygallery" data-title="This is cat"><img src="img/logodesign.jpg"></a>
+        <a href="img/brushpainting.jpg" data-lightbox="mygallery" data-title="This is cat"><img src="img/brushpainting.jpg"></a>
+        <a href="img/compositeimg.jpg" data-lightbox="mygallery" data-title="This is cat"><img src="img/compositeimg.jpg"></a>
+        <a href="img/photorepair.jpg" data-lightbox="mygallery" data-title="This is dog"><img src="img/photorepair.jpg"></a>
+        <a href="img/stampede-1.jpg" data-lightbox="mygallery" data-title="Stampede Fireworks <br>F-stop: f/8 <br> Exposure time: 7sec <br>ISO speed: ISO-100 <br> Canon EOS 50 Mark II"><img src="img/stampede-1.jpg"></a>
     	<a href="img/baby.jpg" data-lightbox="mygallery" data-title="This is dog"><img src="img/baby.jpg"></a>
     	<a href="img/goose.jpg" data-lightbox="mygallery" data-title="This is fish"><img src="img/goose.jpg"></a>
     	<a href="img/fireworks.jpg" data-lightbox="mygallery" data-title="This is cat"><img src="img/fireworks.jpg"></a>

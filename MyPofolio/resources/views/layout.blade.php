@@ -21,7 +21,7 @@
        <header>
          <div class="wrapper">
            <nav class="navbar navbar-expand-lg navbar-light my-navbar">
-             <a class="navbar-brand toplogo" href="/home">
+             <a class="navbar-brand toplogo" href="/">
                <img class="my-logo" src="./img/yifulogo.gif">
              </a>
 

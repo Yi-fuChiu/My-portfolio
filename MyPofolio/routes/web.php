@@ -34,8 +34,9 @@ Route::get('/gallery', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-Route::get('/contact', 'ContactFormContrroller@create');
-Route::post('/contact', 'ContactFormContrroller@store');
+
+Route::get('/contact', 'ContactContrroller@create');
+Route::post('/contact', 'ContactContrroller@store');
 
 Route::get('/game', function () {
     return view('game');

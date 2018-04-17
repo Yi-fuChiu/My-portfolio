@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 
-class ContactFormContrroller extends Controller
+class ContactContrroller extends Controller
 {
    public function create() {
 

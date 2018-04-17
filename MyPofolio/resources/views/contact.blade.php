@@ -1,8 +1,16 @@
 @extends('layout')
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="./css/contact.css">
 
- <?php if($message = session('message')): ?>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+
+
+       <?php if($message = session('message')): ?>
         <div class="alert alert-success">
             <?php echo $message ?>
         </div>
@@ -17,6 +25,7 @@
             </ul>
         </div>
     <?php endif; ?>
+
 
     <div class="wrapper">
     <h1>Contact me</h1>
@@ -35,12 +44,20 @@
             'name' => 'email'
         ])
         <br/>
-        <textarea name="message" rows="8" cols="80" placeholder="message"><?php echo old('message') ?></textarea>
+        <textarea class="form-control" name="message" rows="8" cols="80"  placeholder="message"><?php echo old('message') ?></textarea>
         <br/>
         <input type="submit" name="" value="Submit">
         <br/>
         <br/>
     </form>
     </div>
+    
+
+    </div>
+  </div>
+</div>
+
+
+   
 
 @endsection
