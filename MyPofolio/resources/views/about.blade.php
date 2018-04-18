@@ -11,29 +11,26 @@
 <!--Body-->
 <div class="wrapper">
 
-  <!--About Panel-->
+<!--About Panel-->
   <div class="main container-fluid">
 
-      <h1 class="nametitle">Yi-fu Chiu</h1>
-      <div class="row vertical-center">
-      <div class="col-3">
-      <img class="meimg" src='./img/aboutme.jpg' alt="Yi-fu Chiu"/>
-      </div>
-      <div class="col-9">
-        <p class="exp">My name is Yi-fu Chiu (Chris), I have done several front and back end projects while pursuing a certificat in web development at SAIT, and I enjoy both working with a team and coding individually. Currently I am a junior Front-End Developer and Designer. Practical experience in ecommerce and product branding as well as digital and social media marketing. </p>
+  <h1 class="nametitle">Yi-fu Chiu</h1>
+  <div class="row vertical-center">
+    <div class="col-3">
+      <img class="meimg" src='./img/aboutme.jpg' alt="Yi-fu Chiu"/></div>
+          <div class="col-9">
+            <p class="exp">My name is Yi-fu Chiu (Chris), I have done several front and back end projects while pursuing a certificat in web development at SAIT, and I enjoy both working with a team and coding individually. Currently I am a junior Front-End Developer and Designer. Practical experience in ecommerce and product branding as well as digital and social media marketing. 
+            </p>
       
-      </div>
+  </div> 
   
-    </div>
-    <!--End of About Panel-->
+</div>
+
+<!--End of About Panel-->
 <!--Portfolio Panel-->
-
-  
- 
-
-<div class="aboutmap">
-  <h4 class="nametitle">This is where I am !</h4>
-<div id="map">
+      <div class="aboutmap">
+        <h4 class="nametitle">This is where I am !</h4>
+      <div id="map">
 
 <script>
   function initMap(){
