@@ -27,7 +27,7 @@
 				      <section class="portfolio-item">
 						<img src="img/htmlcss.jpg" alt="" class="portfolio-img">
 						<section class="portfolio-text">
-							<a href="#"><h2>Yi-fu's website</h2></a>
+							<a href="/homepage"><h2>Yi-fu's website</h2></a>
 							<p>My personal responsive website</p>
 						</section>
 				    </div>

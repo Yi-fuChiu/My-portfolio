@@ -54,3 +54,26 @@ Route::get('/calculator', function () {
     return view('calculator');
 });
 
+Route::get('homepage', function () {
+    return view('homepage');
+});
+
+Route::get('aboutme', function () {
+    return view('aboutme');
+});
+
+Route::get('visited', function () {
+    return view('visited');
+});
+
+Route::get('currentplan', function () {
+    return view('currentplan');
+});
+
+Route::get('/mygallery', function () {
+    return view('mygallery');
+});
+
+Route::get('/contactme', function () {
+    return view('contactme');
+});
