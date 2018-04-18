@@ -5,11 +5,27 @@
 
     </script>
       <style>
+
           body{
             background-color: lightblue;
           }
+
+         .container {
+            border: solid;
+            width: 600px;
+            text-align: center;
+            padding-bottom: 20px;
+          }
+
       </style>
+
+
     </head>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+
     <!-- These are some items I want my users to choose -->
     <body onload="loadProvinces()">
     <!-- I use id to define some actions -->
@@ -28,5 +44,9 @@
         <input type="button" value="Submit" onclick="validateForm()"/>
    
     </body>
+
+    </div>
+  </div>
+</div>
 
 </html>

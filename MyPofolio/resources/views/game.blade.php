@@ -9,12 +9,14 @@
     <link rel="stylesheet" type="text/css" href="./css/game.css">
     </head>
     <body>
+
         <!-- html -->
         <div class="box">
     	<h2> A game of ‘Rock, Paper, Scissors’</h2>
     	<input type="button" value="Get start" onclick="userChoice()";/>
     	<div id='results'></div>
         </div>
+
     </body>
 
 

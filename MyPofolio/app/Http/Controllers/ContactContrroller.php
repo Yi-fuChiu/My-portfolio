@@ -40,7 +40,7 @@ class ContactContrroller extends Controller
         $contact->save();
 
         return redirect('/contact')
-            ->with('message', 'Your contact was successfully processed. Someone will be in touch with you soon.');
+            ->with('message', 'Your contact was successfully processed. I will be in touch with you soon.');
     }
 }
 

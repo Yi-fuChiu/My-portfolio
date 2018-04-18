@@ -31,7 +31,7 @@
         <a href="img/dahla.jpg" data-lightbox="mygallery" data-title="Dahla"><img src="img/dahla.jpg"></a>
         <a href="img/ice.jpg" data-lightbox="mygallery" data-title="Ice Sculpture"><img src="img/ice.jpg"></a>
         <a href="img/insect.jpg" data-lightbox="mygallery" data-title="Insect"><img src="img/insect.jpg"></a>
-        <a href="img/dahli-1.jpg" data-lightbox="mygallery" data-title="Dahla"><img src="img/dahli-1.jpg"></a>
+        <!-- <a href="img/dahli-1.jpg" data-lightbox="mygallery" data-title="Dahla"><img src="img/dahli-1.jpg"></a> -->
          <a href="img/family.jpg" data-lightbox="mygallery" data-title="A Beautiful Family at Jasper"><img src="img/family.jpg"></a>
     </div>
 </body>
