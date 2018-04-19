@@ -70,7 +70,7 @@
 					  <section class="portfolio-item">
 						<img src="img/php.jpg" alt="" class="portfolio-img">
 						<section class="portfolio-text">
-							<a href="http://52.91.79.27/"><h2>Urban Spoon</h2></a>
+							<a href="http://34.226.245.103/"><h2>Urban Spoon</h2></a>
 							<p>A functional mock-up website hooks up with database</p>
 						</section>
 					</div>

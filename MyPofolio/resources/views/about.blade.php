@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="/css/basicstyle.css">
+    <!--<link rel="stylesheet" href="/css/style.css">-->
 
 
 <!--Body-->
