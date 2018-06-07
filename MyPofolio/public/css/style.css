@@ -291,7 +291,7 @@ section {
 **********************/
 
 footer {
-  height: 130px;
+  height: auto;
   background-color: #a67c00;
 }
 
@@ -301,7 +301,7 @@ footer {
 }
 
 .contecticons a:hover{
- opacity: 0.9;
+   opacity: 0.9;
    color: lightblue;
    text-decoration: none;
 }

@@ -35,6 +35,7 @@
          }
         }
         </style>
+        <div class="snow">
         <script type="text/javascript">
             function init () {
               var canvas = document.getElementById('canvas');
@@ -74,7 +75,7 @@
               };
               window.onload = init;
         </script>
-        </head>
+        </div>
         <body>
          <canvas id="canvas" width="778" height="387"></canvas>
 
